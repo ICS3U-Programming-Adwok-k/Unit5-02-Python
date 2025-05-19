@@ -6,14 +6,14 @@ def calc_area(base, height):
     #
     area = base * height / 2
     #
-    print("The area of the triangle is: {}".format(area))
+    print("The area of the triangle is: {}cm".format(area))
 
 
 def main():
     # Ask the user for base as a string
-    base_input = input("What is the base: ")
+    base_input = input("What is the base(cm): ")
     # Ask the user for height as a string
-    height_input = input("What is the height: ")
+    height_input = input("What is the height(cm): ")
 
     try:
         # Convert the user base to an integer
